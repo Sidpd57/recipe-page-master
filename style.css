@@ -235,6 +235,7 @@ input {
     }
 
     .main {
+        margin-top: 2rem;
         display: grid;
         grid-template-areas: 'ingredients food';
     }
@@ -259,6 +260,10 @@ input {
 
     .numbering {
         margin-right: 0.35rem;
+    }
+
+    .Ingredient-top-margin{
+        margin-top: 0;
     }
 
     /* TYPOGRAPHY  */
