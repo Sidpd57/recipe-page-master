@@ -62,10 +62,17 @@ input {
 
 .d-flex {
     display: flex;
-    margin-bottom: 1rem;
 }
 
+.fork-knife {
+    display: flex;
+}
 
+.food__status {
+    display: flex;
+    flex-direction: column;
+    gap: 0.875rem;
+}
 
 .prep__time,
 .cook__time,
@@ -209,3 +216,87 @@ input {
 }
 
 
+@media(min-width: 750px){
+
+    body {
+        font-size: 1rem;
+    }
+
+    .container {
+        width: 70%;
+    }
+
+    .hero__info {
+        gap: 0.5rem;
+    }
+
+    .six__dot {
+        padding-top: .38rem
+    }
+
+    .main {
+        display: grid;
+        grid-template-areas: 'ingredients food';
+    }
+
+    .ingredients__and__instruction{
+        grid-area: ingredients;
+    }
+    
+    .food__status {
+        grid-area: food;
+        gap: 1.5rem;
+    }
+
+    .d-flex {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .instruction {
+        margin-bottom: 1rem;
+    }
+
+    .numbering {
+        margin-right: 0.35rem;
+    }
+
+    /* TYPOGRAPHY  */
+
+    .hero__text {
+        font-size: 0.875rem;
+    }
+
+    .time__text{
+        font-size: 10px;
+    }
+
+    .time {
+        font-size: 14px;
+    }
+
+    .food__status {
+        border-radius: 1.2rem;
+        padding: 2.5rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.179);
+        height: 320px;
+    }
+
+    .lg-icon {
+        font-size: 34px;
+    }
+
+    .heading,
+    .ingredients__heading {
+        font-size: 1.5rem;
+    }
+
+    .subtitle,
+    .subtitle-pro {
+        font-size: 18px;
+    }
+
+    .source {
+        font-size: 1rem;
+    }
+}
