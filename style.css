@@ -1,1 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap');
+
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.6;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FAFAFA;
+    /* font-family: 'Playfair Display', serif; */
+}
+
+img {
+    max-width: 100%;
+}
+
+/* p {
+    margin: 0;
+} */
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.list__items {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.list__items p {
+    margin-top: 0;
+}
+
+input {
+    align-self: flex-start;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.hero {
+    padding: 20px 0;
+}
+
+.hero__info {
+    display: flex;
+    gap: 0.3rem;
+    align-items: flex-start;
+    margin: 10px auto 30px;
+}
+
+.d-flex {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+
+
+.prep__time,
+.cook__time,
+.total__time {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    gap: 0.3rem;
+}
+
+.main__res {
+    align-items: center;
+}
+
+.instruction {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.instruction__text {
+    margin-top: 0;
+}
+
+
+ /* TYPOGRAPHY  */
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.hero__text {
+    font-size: 0.75rem;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.six__dot {
+    padding-top: 0.2rem;
+}
+
+.hero__img {
+    border-radius: 15px;
+}
+
+.time {
+    font-size: 10px;
+    font-weight: 500;
+    color: #333333
+}
+
+.time__text {
+    font-size: 8px;
+    font-weight: 700;
+    color: #BDBDBD;
+    text-transform: uppercase;
+    margin-bottom: 0.2rem;
+}
+
+.serve {
+    font-size: 10px;
+    font-weight: 500;
+    color: #F2994A;
+}
+
+.fork-knife {
+    color: #F2994A;
+}
+
+.grey {
+    color: #333333;
+}
+
+.ingredients__heading {
+    font-size: 1.125rem;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+}
+
+.subtitle {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.subtitle-pro {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.food__status p,
+.source p {
+    margin: 0;
+}
+
+.numbering {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 0;
+    background-color: #F2994A;
+    border-radius: 5px;
+    min-width: 35px;
+    height: 35px;
+    color: white;
+}
+
+.instruction__text {
+    font-size: 1rem;
+}
+
+.source {
+    font-size: 12px;
+    color: #BDBDBD;
+}
+
+.footer {
+    margin-top: 5rem;
+    text-align: center;
+    color: #828282;
+}
+
+.user {
+    font-weight: 700;
+}
+
 
