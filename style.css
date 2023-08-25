@@ -110,6 +110,12 @@ input {
     font-weight: 700;
 }
 
+.hero__heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
 .heading {
     font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
@@ -267,6 +273,11 @@ input {
     }
 
     /* TYPOGRAPHY  */
+
+    .hero__heading {
+        font-size: 48px;
+        margin-bottom: 0;
+    }
 
     .hero__text {
         font-size: 0.875rem;
